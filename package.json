@@ -1,0 +1,31 @@
+{
+  "name": "liviaportfolio",
+  "version": "1.0.0",
+  "description": "Livia's Portfolio für das Fach Informatik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "watch-sass": "node-sass --watch scss/styles.scss public/css/main.css",
+    "build-css": "node-sass --include-path scss scss/styles.scss public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moorlivia/livia-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moorlivia/livia-portfolio/issues"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "homepage": "https://github.com/moorlivia/livia-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "http": "0.0.0",
+    "live-server": "^1.2.1",
+    "octicons": "^8.5.0"
+  },
+  "author": "Livia Moor",
+  "license": "ISC"
+}
