@@ -1,0 +1,50 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.logo {
+  animation: rotation 2s infinite linear;
+}
+.content {
+  max-width: 60em;
+  margin-left: 12.5em;
+  margin-top: 7em;
+}
+.p-3 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.btn-sm {
+  font-size: 12pt;
+}
+.footer {
+  padding-right: 1em;
+}
+.footer-copyright {
+  font-size: 9pt;
+  position: unset;
+  float: right;
+}
+.progress {
+  height: 7px;
+  margin: 7px;
+}
+.form-contact {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.video {
+  margin-top: 3rem;
+}
+.image-gallery {
+  margin: 10px 15px;
+}
+.gallery-image {
+  width: 19rem;
+  transition: 1s;
+  padding: 15px;
+}
