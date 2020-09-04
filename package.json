@@ -17,7 +17,7 @@
     "url": "https://github.com/moorlivia/livia-portfolio/issues"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "homepage": "https://github.com/moorlivia/livia-portfolio#readme",
   "dependencies": {
